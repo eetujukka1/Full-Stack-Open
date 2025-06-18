@@ -1,0 +1,61 @@
+h1 {
+    color: blue;
+    text-align: center;
+    margin: 0;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.style1 {
+    color: black;
+}
+
+.style2 {
+    color: gray;
+}
+
+html {
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    background-color: gainsboro;
+}
+
+body {
+    padding: 20px;
+    width: auto;
+    background-color: aliceblue;
+    border: 5px solid black;
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+
+button {
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 300px;
+    border: 1px solid #999;
+    vertical-align: top;
+}
+
+input {
+    height: 20px;
+}
+
+textarea {
+    height: 7em;
+}
