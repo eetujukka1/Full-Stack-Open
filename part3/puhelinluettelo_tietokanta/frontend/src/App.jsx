@@ -70,7 +70,7 @@ const App = () => {
         notify(`Added ${personObject["name"]}`, true)
       })
       .catch(error => {
-        notify(`Couldn't add ${newName}, please try again later`, false)
+        notify(error.response.data.error, false)
       })
     }
   }
