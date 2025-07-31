@@ -57,7 +57,7 @@ const App = () => {
           notify(`Updated ${updatedPerson["name"]}`, true)
         })
         .catch(error => {
-          notify(`Couldn't update information for ${oldPerson["name"]} as it doesn't exist`, false)
+          notify(`Couldn't update information for ${oldPerson["name"]}`, false)
         })
       }
     } else {
