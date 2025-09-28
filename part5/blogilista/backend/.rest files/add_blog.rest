@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVqdWtrYSIsImlkIjoiNjg5NGJmMGQyNjhkMzhiMDYzNTkxZWVhIiwiaWF0IjoxNzU0NTc5MDY3fQ.7h6_hCwcfE0Ljpx6eQv1HX9tTOA-jmS-vkn-T2FfW8s
+
+{
+  "title": "Hello world",
+  "author": "Eetu J",
+  "url": "localhost/test",
+  "likes": 5
+}

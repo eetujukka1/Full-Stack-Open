@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    text-align: center;
+    margin: 0;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.style1 {
+    color: black;
+}
+
+.style2 {
+    color: gray;
+}
+
+html {
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    background-color: gainsboro;
+}
+
+body {
+    padding: 20px;
+    width: auto;
+    background-color: aliceblue;
+    border: 5px solid black;
+}
